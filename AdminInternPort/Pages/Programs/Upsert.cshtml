@@ -1,0 +1,92 @@
+﻿@page
+@model AdminInternPort.Pages.Programs.UpsertModel
+
+br />
+<h2 class="text-info">@(Model.Program.Id != 0? "Edit" : "Create") Program </h2>
+<br />
+
+<div class="container border" style="padding:30px;">
+    <form method="post">
+        @if (Model.Program.Id != 0)
+        {
+            <input type="hidden" asp-for="Program.Id" />
+        }
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Program.Title"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Program.Title" class="form-control" />
+            </div>
+            <span asp-validation-for="Program.Title" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Program.Description"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Program.Description" class="form-control" />
+            </div>
+            <span asp-validation-for="Program.Description" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Program.StartDate"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Program.StartDate" class="form-control" />
+            </div>
+            <span asp-validation-for="Program.StartDate" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Program.EndDate"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Program.EndDate" class="form-control" />
+            </div>
+            <span asp-validation-for="Program.EndDate" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Program.MaxCapacity"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Program.MaxCapacity" class="form-control" />
+            </div>
+            <span asp-validation-for="Program.MaxCapacity" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Program.CurrentCapacity"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Program.CurrentCapacity" class="form-control" />
+            </div>
+            <span asp-validation-for="Program.CurrentCapacity" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Program.GoogleClassroomCode"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Program.GoogleClassroomCode" class="form-control" />
+            </div>
+            <span asp-validation-for="Program.GoogleClassroomCode" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3 offset-4">
+                <button type="submit" class="btn btn-primary form-control">@(Model.Program.Id != 0? "Edit" : "Create")</button>
+            </div>
+            <div class="col-3">
+                <a asp-page="Index" class="btn btn-success form-control">Back To List</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
