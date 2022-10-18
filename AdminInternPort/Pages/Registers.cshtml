@@ -1,0 +1,33 @@
+﻿@page
+@model AdminInternPort.Pages.Registers.RegistersModel
+
+
+<div class="container mt-5">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <h1 class="mb-3">Register</h1>
+            <form method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="RegisterModel.UserName">Email Address</label>
+                    <input type="email" asp-for="RegisterModel.UserName" class="form-control" />
+                    <span asp-validation-for="RegisterModel.UserName" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="RegisterModel.Password">Email Address</label>
+                    <input type="password" asp-for="RegisterModel.Password" class="form-control" />
+                    <span asp-validation-for="RegisterModel.Password" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="RegisterModel.ConfirmPassword">Email Address</label>
+                    <input type="password" asp-for="RegisterModel.ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="RegisterModel.ConfirmPassword" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

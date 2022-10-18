@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vkzfN67va6b4lKKeSqMaLOny7fbrgQZr8XZcAExhW6HoWLfGRLMeIsqrkW1WPPde9RFsW6YrG60Dy4tuINYozA==",
+  "dgSpecHash": "vdWV5pKXejrWq7S1e8Dupv8nANqqqa3lw3ccD4J7/pSujCkULQO6ZCgLjj1G87ikX2UFSBOimbY0iUazVPFBGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\dotnet\\AdminInternPort\\AdminInternPort\\AdminInternPort.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.30\\microsoft.aspnetcore.cryptography.internal.3.1.30.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.30\\microsoft.aspnetcore.cryptography.keyderivation.3.1.30.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.30\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.30.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.30\\microsoft.aspnetcore.mvc.razor.extensions.3.1.30.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.30\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.30.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.30\\microsoft.aspnetcore.razor.language.3.1.30.nupkg.sha512",
@@ -30,6 +33,8 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.30\\microsoft.extensions.dependencyinjection.3.1.30.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.30\\microsoft.extensions.dependencyinjection.abstractions.3.1.30.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.25\\microsoft.extensions.dependencymodel.3.1.25.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.identity.core\\3.1.30\\microsoft.extensions.identity.core.3.1.30.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.30\\microsoft.extensions.identity.stores.3.1.30.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.logging\\3.1.30\\microsoft.extensions.logging.3.1.30.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.30\\microsoft.extensions.logging.abstractions.3.1.30.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.options\\3.1.30\\microsoft.extensions.options.3.1.30.nupkg.sha512",
