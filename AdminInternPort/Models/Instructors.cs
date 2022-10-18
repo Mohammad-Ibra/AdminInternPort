@@ -19,7 +19,7 @@ namespace AdminInternPort.Models
         public bool InstructorEmployer { get; set; }
         public string Major { get; set; }
         [ForeignKey("Program")]
-        public int ProgramId { get; set; }
+        public string Title { get; set; }
         public DateTime CreationDate { get; set; }
     }
 }

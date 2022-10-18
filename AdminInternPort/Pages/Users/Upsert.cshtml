@@ -1,0 +1,62 @@
+﻿@page
+@model AdminInternPort.Pages.Users.Index1Model
+
+<br />
+<h2 class="text-info">@(Model.Instructor.Id != 0? "Edit" : "Create") Instructor </h2>
+<br />
+
+<div class="container border" style="padding:30px;" >
+    <form method="post">
+        @if (Model.Instructor.Id != 0)
+        {
+            <input type="hidden" asp-for="Instructor.Id" />
+        }
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Instructor.FullName"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Instructor.FullName" class="form-control" />
+            </div>
+            <span asp-validation-for="Instructor.FullName" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Instructor.UserName"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Instructor.UserName" class="form-control" />
+            </div>
+            <span asp-validation-for="Instructor.UserName" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Instructor.InstructorEmployer"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Instructor.InstructorEmployer" class="form-control" />
+            </div>
+            <span asp-validation-for="Instructor.InstructorEmployer" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Instructor.Major"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Instructor.Major" class="form-control" />
+            </div>
+            <span asp-validation-for="Instructor.Major" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Instructor.Title"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Instructor.Title" class="form-control" />
+            </div>
+            <span asp-validation-for="Instructor.Title" class="text-danger"></span>
+        </div>
+        <input type="hidden" asp-for="Instructor.CreationDate" value="@DateTime.Today">
+    </form>
+</div>

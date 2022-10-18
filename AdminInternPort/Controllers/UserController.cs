@@ -22,7 +22,7 @@ namespace AdminInternPort.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            return Json(new { data = await _db.Interns.ToListAsync() });
+            return Json(new { data = await _db.Instructors.ToListAsync() });
         }
 
         [HttpDelete]
