@@ -58,5 +58,13 @@
             <span asp-validation-for="Instructor.Title" class="text-danger"></span>
         </div>
         <input type="hidden" asp-for="Instructor.CreationDate" value="@DateTime.Today">
+        <div class="form-group row">
+            <div class="col-3 offset-4">
+                <button type="submit" class="btn btn-primary form-control">@(Model.Instructor.Id != 0? "Edit" : "Create")</button>
+            </div>
+            <div class="col-3">
+                <a asp-page="Index" class="btn btn-success form-control">Back To List</a>
+            </div>
+        </div>
     </form>
 </div>

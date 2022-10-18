@@ -15,7 +15,7 @@ function loadDataTable() {
             { "data": "fullName", "width": "15%" },
             { "data": "userName", "width": "15%" },
             { "data": "creationDate", "width": "15%" },
-            { "data": "major", "width": "15%" },
+            { "data": "title", "width": "15%" },
             {
                 "data": "id",
                 "render": function (data) {

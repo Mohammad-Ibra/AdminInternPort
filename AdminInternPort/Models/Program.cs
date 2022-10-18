@@ -44,7 +44,7 @@ namespace AdminInternPort.Models
         public string Major { get; set; }
         public DateTime GraduationDate { get; set; }
         [ForeignKey("Program")]
-        public int ProgramId { get; set; }
+        public string Title { get; set; }
         public DateTime CreationDate { get; set; }
         public bool ValidEmail { get; set; }
     }

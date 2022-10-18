@@ -16,14 +16,12 @@ function loadDataTable() {
             { "data": "email", "width": "15%" },
             { "data": "major", "width": "15%" },
             { "data": "university", "width": "15%" },
-            { "data": "graduationDate", "width":"15%" },
+            { "data": "graduationDate", "width": "15%" },
+            {"data": "title", "width":"15%"},
             {
                 "data": "id",
                 "render": function (data) {
                     return `<div class="text-center">
-                        <a href="/Interns/Upsert?id=${data}" class="btn btn-success text-white" style="cursor:pointer; width:70px;" >
-                            View
-                        </a>
                         &nbsp;
                         <a  class="btn btn-danger text-white" style="cursor:pointer; width:70px;"
                                 onclick=Delete('/api/interns?id='+${data})>
@@ -32,7 +30,7 @@ function loadDataTable() {
                         </a>
                         </div>
                     `
-                }, "width": "25%"
+                }, "width": "10%"
             }
         ],
         "language": {
