@@ -33,7 +33,7 @@ namespace AdminInternPort
             services.AddRazorPages().AddRazorRuntimeCompilation();
             services.ConfigureApplicationCookie(config =>
             {
-                config.LoginPath = "/LogIn";
+                config.LoginPath = "/Index";
             });
         }
 
