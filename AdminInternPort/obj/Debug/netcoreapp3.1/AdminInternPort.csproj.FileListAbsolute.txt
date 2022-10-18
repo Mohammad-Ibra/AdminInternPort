@@ -386,4 +386,4 @@ C:\Users\Lenovo\Desktop\dotnet\AdminInternPort\AdminInternPort\bin\Debug\netcore
 C:\Users\Lenovo\Desktop\dotnet\AdminInternPort\AdminInternPort\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Lenovo\Desktop\dotnet\AdminInternPort\AdminInternPort\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Lenovo\Desktop\dotnet\AdminInternPort\AdminInternPort\obj\Debug\netcoreapp3.1\Razor\Pages\Registers.cshtml.g.cs
-C:\Users\Lenovo\Desktop\dotnet\AdminInternPort\AdminInternPort\obj\Debug\netcoreapp3.1\Razor\Pages\LogIn.cshtml.g.cs
+C:\Users\Lenovo\Desktop\dotnet\AdminInternPort\AdminInternPort\obj\Debug\netcoreapp3.1\Razor\Pages\LogOut.cshtml.g.cs
